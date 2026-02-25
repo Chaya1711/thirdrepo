@@ -7,6 +7,6 @@ provider "aws" {
 module "ec2_instance" {
 source = "./module/ec2_instance"
 ami_id = var.ami_id
-instance_type = var.instance_type
+instance_type = var.instance_type #type
 subnet_cd = var.subnet_cd
 }
