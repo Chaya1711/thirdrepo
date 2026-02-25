@@ -10,3 +10,6 @@ ami_id = var.ami_id
 instance_type = var.instance_type #type
 subnet_cd = var.subnet_cd
 }
+output "public-ip-address" {
+  value = aws_instance.example.public_ip
+}
