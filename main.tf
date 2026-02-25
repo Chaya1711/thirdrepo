@@ -11,5 +11,5 @@ instance_type = var.instance_type #type
 subnet_cd = var.subnet_cd
 }
 output "public-ip-address" {
-  value = module.ec2_instance.private_ip
+  value = module.ec2_instance.public-ip-address
 }
