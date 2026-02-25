@@ -9,5 +9,5 @@ resource "aws_instance" "excdample" {
 
 resource "aws_s3_bucket" "statee-bucket" {
   bucket = "my-terraform-state-bucket"
-  region = "us-east-1"
+  
 }
