@@ -3,7 +3,7 @@ provider "aws" {
 }   
 resource "aws_instance" "excdample" {
   ami = var.ami_id
-  instance_type = var.instance_type
+  instance_type = var.instance_type #
   subnet_id = var.subnet_cd
 }
 
