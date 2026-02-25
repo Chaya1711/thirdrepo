@@ -7,6 +7,6 @@ resource "aws_instance" "excdample" {
   subnet_id = var.subnet_cd
 }
 
-resource "aws_s3_bucket" "state-bucket" {
+resource "aws_s3_bucket" "statee-bucket" {
   bucket = "my-terraform-state-bucket"
 }
