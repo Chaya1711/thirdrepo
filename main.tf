@@ -8,5 +8,5 @@ resource "aws_instance" "excdample" {
 }
 
 resource "aws_s3_bucket" "s3_bucket" {
-  bucket = "my-terraform-state-bucket"
+  bucket = "my-terraform-chaya-state-bucket"
 }
